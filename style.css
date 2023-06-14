@@ -71,8 +71,10 @@ img {
 }
 
 footer {
-  color: #c4eef2;
+  color: #f6f6f6;
   text-align: center;
+  font-weight: bold;
+  font-family: "Overpass", sans-serif;
 }
 
 /* MOBILE OPT */
