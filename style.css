@@ -39,12 +39,22 @@ img {
 
 .container {
   margin: 0 auto;
-  overflow-y: hidden;
-  padding: 0 50px;
+
   width: 815px;
   margin-bottom: 15px;
-  background-color: antiquewhite;
+
   font-family: "Overpass", sans-serif;
+
+  padding: 20px;
+  box-shadow: 0 3rem 5rem rgba(108, 108, 108, 0.25);
+  border-radius: 9px;
+  background-color: rgba(255, 255, 255, 0.136);
+  backdrop-filter: blur(200px);
+  filter: blur();
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .contato {
