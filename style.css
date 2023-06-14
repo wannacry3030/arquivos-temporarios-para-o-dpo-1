@@ -40,14 +40,11 @@ img {
 .container {
   color: #cccccc;
   margin: 0 auto;
-
   width: 60vw;
   margin-bottom: 15px;
-
   font-family: "Overpass", sans-serif;
-
   padding: 20px;
-  box-shadow: 0 3rem 5rem rgba(108, 108, 108, 0.25);
+  box-shadow: 0 3rem 5rem rgba(139, 139, 139, 0.25);
   border-radius: 9px;
   background-color: rgba(255, 255, 255, 0.079);
   backdrop-filter: blur(200px);
@@ -70,4 +67,37 @@ img {
 footer {
   color: #c4eef2;
   text-align: center;
+}
+
+/* MOBILE OPT */
+@media (max-width: 900px) {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .container {
+    color: #f6f6f6;
+    margin: 0 auto;
+    width: 60vw;
+    margin-bottom: 15px;
+    font-family: "Overpass", sans-serif;
+    padding: 20px;
+    box-shadow: 0 3rem 5rem rgba(139, 139, 139, 0.25);
+    border-radius: 9px;
+    background-color: rgba(255, 255, 255, 0.079);
+    backdrop-filter: blur(200px);
+    filter: blur();
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 12px;
+  }
+  p {
+    font-size: 15px;
+  }
+
+  button {
+    font-size: 10px;
+  }
 }
