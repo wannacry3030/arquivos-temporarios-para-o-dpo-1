@@ -12,9 +12,13 @@ a {
 }
 
 button {
-  background: #c4eef2;
-  border-color: #537bc3;
-  border-radius: 8px;
+  border: none;
+  border-radius: 10px;
+  color: #ef2828;
+  background-color: rgba(255, 255, 255, 0.079);
+  box-shadow: 6px 6px 12px #131313, -6px -6px 12px #292929;
+  font-size: medium;
+  font-weight: bold;
 }
 
 li {
@@ -31,9 +35,10 @@ img {
 }
 
 .nota {
-  color: #3e5b91;
+  color: #ed0d0d;
   font-weight: bold;
   font-size: 20px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -56,12 +61,13 @@ img {
 }
 
 .contato {
-  color: #537bc3;
+  color: #ef2828;
   border-radius: 8px;
 }
 
 .titulos {
   margin-top: 40px;
+  font-weight: bold;
 }
 
 footer {
